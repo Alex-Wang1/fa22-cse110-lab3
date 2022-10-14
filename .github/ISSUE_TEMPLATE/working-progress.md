@@ -2,8 +2,8 @@
 name: Working progress
 about: List finished and unfinished part of the current task with estimated time
 title: Working progress
-labels: Zheyuan Wang
-assignees: ''
+labels: ''
+assignees: Alex-Wang1
 
 ---
 
