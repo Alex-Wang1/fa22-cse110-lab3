@@ -1,0 +1,147 @@
+/* define global var to standarlize the code */
+:root {
+    --color-default: black;
+    --color-main: #F5EEDC;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+    color: rgb(245, 238, 220);
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.5rem;
+}
+
+/* header part */
+*#header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* body part */
+/* agenda and attendence */
+.task {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #F5EEDC;
+    border-width: 2px;
+    padding: 0.45rem;
+}
+
+.task:hover {
+    text-decoration: underline;
+}
+
+.agen_atten {
+    display: flex;
+    flex-direction: column;
+}
+
+.business {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    height: 30vw;
+    width: 80vw;
+}
+
+img[src$=".png"] {
+    border: 5px solid orange;
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+}
+
+.audio figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8vw;
+    margin: 0 0 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.video {
+    margin: auto;
+    padding: 0;
+}
+
+.back_to_top {
+    text-decoration: none;
+    color: #F5EEDC;
+}
+
+.back_to_top:active {
+    color: green;
+}
+
+/* ========================================================================== */
+/* lab part for lab3 requirements */
+
+.test1 {
+    height: 100px;
+    width: 50cm;
+    font-size: 10pt;
+    text-decoration: underline;
+    text-align: center;
+    max-width: 55cm;
+    max-height: 105px;
+    position: relative;
+    display: grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+}
+
+.test1>ol {
+    list-style-type: none;
+}
+
+span ~ p {
+    color: blue;
+}
+
+p.a_p {
+    color: yellow;
+}
+
+li:first-of-type+li {
+    color: #F5EEDC;
+}
+
+.test2 {
+    display: grid;
+    grid-template-rows: [row1-start] 25% [row1-end row2-start] 25% [row2-end];
+}
+
+.test2, .labpart {
+    color: antiquewhite;
+}
+
+.labpart {
+    position: static;
+    height: 50vw;
+    width: 30rem;
+    font-size: 1em;
+    display: grid;
+    grid-column-start: col-start 2;
+}
