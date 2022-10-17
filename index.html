@@ -6,88 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting minutes</title>
     <link type="image/png" sizes="16x16" rel="icon" href="assets/image/icons8-note-16.png">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Meeting minutes V1 draft</h1>
-        <h2>brainstorming</h2>
+        <h2>Brainstorming</h2>
         <h3>Oct 8 3:57pm</h3>
     </header>
     <hr>
     <main>
-        <h2>Agenda</h2>
-        <div class="agenda">
-            <ol>
-                <li>discuss what is meeting minutes</li>
-                <li>why people need meeting minutes</li>
-            </ol>
+        <div class="agen_atten">
+            <div class="agenda">
+            <h2 class="task">Agenda</h2>
+                <ol type="I">
+                    <li>discuss what is meeting minutes</li>
+                    <li>why people need meeting minutes</li>
+                </ol>
+            </div>
+            <div class="attendence">
+            <h2 class="task">Attendence</h2>
+                <ul>
+                    <li>Alex</li>
+                    <li>Tom</li>
+                    <li>Jerry</li>
+                </ul>
+            </div>
         </div>
-        <h2>Attendence</h2>
-        <div class="attendence">
-            <ul>
-                <li>Alex</li>
-                <li>Tom</li>
-                <li>Jerry</li>
-            </ul>
+        <hr>
+        <div class="business">
+            <div class="lastweek">
+            <h2 class="task">Unfinished business</h2>
+                <ul>
+                    <li>Event A</li>
+                    <li>Event B</li>
+                    <li>Event C</li>
+                </ul>
+            </div>
+            <div class="newbusiness">
+            <h2 class="task">New business to talk</h2>
+                <ul>
+                    <li>Business A</li>
+                    <li>Business B</li>
+                    <li>Business C</li>
+                </ul>
+            </div>
+            <div class="comments">
+            <h2 class="task">Comments</h2>
+                <ul>
+                    <li>Comment A</li>
+                    <li>Comment B</li>
+                    <li>Comment C</li>
+                </ul>
+            </div>
         </div>
-        <h2>Unfinished business from last meeting</h2>
-        <div class="lastweek">
-            <ul>
-                <li>Event A</li>
-                <li>Event B</li>
-                <li>Event C</li>
-            </ul>
-        </div>
-        <h2>New business to talk</h2>
-        <div class="newbusiness">
-            <ul>
-                <li>Business A</li>
-                <li>Business B</li>
-                <li>Business C</li>
-            </ul>
-        </div>
-        <h2>Comments</h2>
-        <div class="comments">
-            <ul>
-                <li>Comment A</li>
-                <li>Comment B</li>
-                <li>Comment C</li>
-            </ul>
-        </div>
-        <h2>Images</h2>
+        <h2 class="task">Images</h2>
         <div class="img">
             <img src="assets/image/img1.png" alt="meeting minutes concept">
             <img src="assets/image/img2.png" alt="meeting minutes concept">
         </div>
-        <h2>Audio</h2>
         <div class="audio">
+        <h2 class="task">Audio</h2>
             <figure>
                 <figcaption>Audio file from meeting</figcaption>
                 <audio controls src="assets/audio/sample-15s.mp3"></audio>
             </figure>
         </div>
-        <h2>Video</h2>
+        <h2 class="task">Video</h2>
         <div class="video">
             <video controls src="assets/video/sample-mp4-file-small.mp4"></video>
         </div>
+        <h2 class="task"><a href="#header" class="back_to_top">Back to top</a></h2>
     </main>
     <hr>
     <footer>
         <details>
             <summary>ℹ️</summary>
-            Some special thing about this meeting
+            This meeting do not have special comments
         </details>
     </footer>
     <hr>
-    <p>Lab Part[Not use these elements on Meeting Minutes but for Lab2 requirements]</p>
-    <nav class="test">
+    <br><br><br><br><br>
+    <p>Lab Part[Not use these elements on Meeting Minutes but for Lab3 requirements]</p>
+    <nav class="test1">
         <ol>
             <li class="crumb"><a href="#">Bikes</a></li>
             <li class="crumb"><a href="#">BMX</a></li>
             <li class="crumb">Jump Bike 3000</li>
         </ol>
+        <ul>
+            <li class="crumb"><a href="#">Bikes</a></li>
+            <li class="crumb"><a href="#">BMX</a></li>
+            <li class="crumb">Jump Bike 3000</li>
+        </ul>
+    </nav>
+    <nav class="test2">
+        <ol>
+            <li class="crumb"><a href="#">Goodtest</a></li>
+            <li class="crumb"><a href="#">Badtest</a></li>
+            <li class="crumb">Normaltest</li>
+        </ol>
+        <ul>
+            <li class="crumb"><a href="#">Goodtest2</a></li>
+            <li class="crumb"><a href="#">Badtest2</a></li>
+            <li class="crumb">Normaltest2</li>   
+        </ul>
     </nav>
     <section class="labpart">
+    <span>a span</span>
+    <p class="a_p">sibling of span</p>
         <h3>this is a section</h3>
         <p>
             <span>this is a span element</span>.
